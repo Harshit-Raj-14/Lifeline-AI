@@ -123,9 +123,36 @@
       color: #4aa3f5;
     }
     .scores {
-      display: flex;
-      justify-content: space-around;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
       margin-bottom: 1rem;
+    }
+    .score-box h3 {
+      font-size: 1.5rem;
+      color: #4caf50;
+    }
+    .score-box p {
+      font-size: 1rem;
+      color: #aaa;
+    }
+    .analysis-section {
+      margin-top: 1rem;
+      padding: 1rem;
+      background-color: #333;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    }
+    .analysis-section h3 {
+      color: #4caf50;
+    }
+    .analysis-section ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+      color: #aaa;
+    }
+    .analysis-section ul li {
+      margin-bottom: 0.5rem;
     }
     .score-box {
       text-align: center;
@@ -299,20 +326,59 @@
             <p>Outcome</p>
           </div>
         </div>
-        <div>
-          <h3>Strengths</h3>
+        <div class="analysis-section">
+          <h3>Emotional State of Caller</h3>
           <ul>
-            <li>Responded quickly to the emergency.</li>
+            <li>Distressed and panicked due to the fire.</li>
           </ul>
-          <h3>Weaknesses</h3>
+        </div>
+        <div class="analysis-section">
+          <h3>Nature of Emergency</h3>
           <ul>
-            <li>Missed asking specific details about the grandparents' location.</li>
+            <li>House fire with people trapped inside.</li>
           </ul>
+        </div>
+        <div class="analysis-section">
+          <h3>Action Dispatcher Should Take</h3>
+          <ul>
+            <li>Confirm the exact location of the house.</li>
+            <li>Advise the caller on safety steps while waiting for responders.</li>
+            <li>Assure the caller that help is on the way.</li>
+          </ul>
+        </div>
+        <div class="analysis-section">
           <h3>Improvements</h3>
           <ul>
             <li>Include safety tips while waiting for responders.</li>
+            <li>Ask specific details about the location of people trapped inside.</li>
           </ul>
         </div>
+        <div class="analysis-section" style="font-family: Arial, sans-serif;">
+          <h3 style="text-align: center; color: #ff4d4d; margin-bottom: 20px;">Dispatcher</h3>
+          <ul style="list-style: none; padding: 0;">
+            <li style="margin-bottom: 15px;">
+              <strong style="color: #4caf50; font-size: 18px;">Strengths</strong>
+              <ul style="margin: 10px 0 0 20px; list-style: disc;">
+                <li>The dispatcher needs training in clear communication, information gathering, and maintaining composure under pressure.</li>
+                <li>Adherence to established protocols for emergency calls is crucial.</li>
+              </ul>
+            </li>
+            <li style="margin-bottom: 15px;">
+              <strong style="color: #f44336; font-size: 18px;">Weaknesses</strong>
+              <ul style="margin: 10px 0 0 20px; list-style: disc;">
+                <li>Did not provide any directives to save grandparents.</li>
+              </ul>
+            </li>
+            <li>
+              <strong style="color: #ff9800; font-size: 18px;">Suggestions</strong>
+              <ul style="margin: 10px 0 0 20px; list-style: disc;">
+                <li><strong style="color: #ffc107;">Question Clarity:</strong> Could ask clarifying questions to get a better understanding of the situation.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        
+        
       </div>
     </div>
   </div>

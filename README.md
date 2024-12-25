@@ -47,23 +47,33 @@ git clone https://github.com/Harshit-Raj-14/Lifeline-AI.git
 ```
 
 **2. Run backend part**
-> cd lifeline-ai-backend
+```
+cd lifeline-ai-backend
+```
 
-> pip install -r requirements.txt
+```
+pip install -r requirements.txt
+```
 
 **Make a .env file**
 ```
 GOOGLE_API_KEY=your google gemini api key
 ```
 
-> streamlit run app.py
+```
+streamlit run app.py
+```
 
 **3. Run frontend part**
-> cd lifeline-ai-frontend
-
-> npm install
-
-> npm start
+```
+cd lifeline-ai-frontend
+```
+```
+npm install
+```
+```
+npm start
+```
 
 # PROJECT SNAPS
 ![Untitled design(1)](https://github.com/user-attachments/assets/ed2be2f7-93cd-425d-b76e-a4685ff1ed3d)

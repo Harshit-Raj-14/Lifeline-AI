@@ -1,6 +1,6 @@
 # LifeLine AI - Emergency Dispatch Call Analyzer AI
 
-**Video Demo  - https://youtu.be/p1rArE2GFSs?si=2ZC6qDH98H0Y0P03**
+**Video Demo  - https://youtu.be/ioTEQsWgA5w?si=IrKra5UmJ2yMOb34**
 
 **Deployed Link - https://lifeline-ai.vercel.app/**
 
@@ -35,6 +35,8 @@ LifeLine AI helps record those high-stakes emergency calls where quick, decisive
 
 - **Continuous Improvement**: The system’s feedback loop ensures that dispatchers receive ongoing guidance, fostering skill growth and better decision-making under pressure.
 
+## Simulation Emergency AI caller
+Use AI to help generate call based scenarios where the dispatcher gives prompts for a car crash victim or a fire victim etc. The victim call is generated and then the dispatcher responds to the AI generated call. Again the conversation is transcribed and a performance analysis is conducted to give feedback to the dispatcher.
 
 ## System Design
 ![Screenshot 2024-12-25 at 06-27-08 SYSTEM DESIGN - 1920 × 913px](https://github.com/user-attachments/assets/9bc3018a-e864-4f23-8aba-05990bdaab06)
@@ -89,3 +91,8 @@ npm start
 <hr>
 
 ![Screenshot 2024-12-25 at 05-31-40 Streamlit](https://github.com/user-attachments/assets/c8e66063-9759-4e15-b34b-3ee39ce089a2)
+
+<hr>
+
+![340144425-f6304d30-773c-4799-b9a4-2c6ecf2674ab](https://github.com/user-attachments/assets/edee4e65-e670-463f-91f7-669917a25985)
+

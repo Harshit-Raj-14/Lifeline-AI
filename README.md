@@ -94,5 +94,6 @@ npm start
 
 <hr>
 
-![340144425-f6304d30-773c-4799-b9a4-2c6ecf2674ab](https://github.com/user-attachments/assets/edee4e65-e670-463f-91f7-669917a25985)
+![Screenshot 2024-12-25 at 13-54-01 AI victim Caller - 1902 × 917px - Canva](https://github.com/user-attachments/assets/a7681053-addb-443a-8f77-0c1483e093f4)
+
 

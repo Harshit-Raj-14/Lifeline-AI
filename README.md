@@ -1,13 +1,15 @@
 # LifeLine AI - Emergency Dispatch Call Analyzer AI
 
-### Video Demo  - 
+**Video Demo  - **
 
-### Deployed Link - https://lifeline-ai.vercel.app/
+**Deployed Link - https://lifeline-ai.vercel.app/**
 
-### Dispatcher Analyzer backend - https://lifeline-ai.streamlit.app/
+**Dispatcher Analyzer backend - https://lifeline-ai.streamlit.app/**
+
+<hr>
 
 ## The Problem We Are Trying to Solve
-_Laerdal Challenge - Emergency Dispatch Conversation/Copilot Al_
+**_Laerdal Challenge - Emergency Dispatch Conversation/Copilot Al_**
 
 We all know the dispatchers sitting behind those emergency calls play a very important role in providing relief in emergency situations. However, when it comes to new, inexperienced dispatchers, training and reading endless manuals and handbooks just might not work out in real-life emergency scenarios and high-pressure calls with life-death situations. It’s times like these that we all think, *“If only we had a real-time guide in those critical moments!”*
 
@@ -35,7 +37,9 @@ LifeLine AI helps record those high-stakes emergency calls where quick, decisive
 
 
 ## System Design
+![Screenshot 2024-12-25 at 06-27-08 SYSTEM DESIGN - 1920 × 913px](https://github.com/user-attachments/assets/9bc3018a-e864-4f23-8aba-05990bdaab06)
 
+<hr>
 
 ## Tech Stack
 **React.js, Node.js, Gemini, Python, Streamlit**
